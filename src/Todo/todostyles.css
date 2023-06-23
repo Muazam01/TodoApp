@@ -1,0 +1,55 @@
+
+/* TodoItem Styles */
+
+#card{
+    /* border: 2px solid white; */
+    margin: 3em;
+    transition: 0.5s transform;
+}
+
+/* #card:hover{
+    transform: scale(1.5);
+} */
+
+.checkbox{
+    width: 2em;
+    height: 2em;
+    transform: scale(2.2);
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 2.2em;
+}
+
+.title.checked{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.text{
+    font-size: 1.2em;
+}
+
+.text.checked{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+#delBtn{
+    position: relative;
+    right: 8em;
+    transition: 1.1s transform;
+}
+
+#delBtn:hover{
+    background-color: red;
+    transform: rotate(360deg);
+}
+
+
+/* Todo Form Styles */
+
+.todo-form{
+    font-weight: bold;
+}
